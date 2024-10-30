@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/tvTitulo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingBottom="8dp"
+        android:text="Título do Filme"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/ivPoster"
+        android:layout_width="300dp"
+        android:layout_height="126dp"
+        android:scaleType="centerCrop"
+        android:src="@mipmap/ic_launcher" />
+
+    <TextView
+        android:id="@+id/tvDiretor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Diretor"
+        android:textSize="14sp"
+        android:paddingTop="8dp"/>
+
+    <TextView
+        android:id="@+id/tvAno"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ano de Lançamento"
+        android:textSize="14sp"
+        android:paddingBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnVerSinopse"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="?attr/colorPrimary"
+        android:text="VER SINOPSE"
+        android:textColor="#FFFFFF" />
+</LinearLayout>
